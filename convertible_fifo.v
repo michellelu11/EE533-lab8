@@ -26,7 +26,7 @@ module convertible_fifo(
 	input wire net_in_we,
 	output wire net_in_full,
 	
-	input wire [71:0] net_out_data,
+	output wire [71:0] net_out_data,
 	input wire net_out_re,
 	output wire net_out_empty,
 	
